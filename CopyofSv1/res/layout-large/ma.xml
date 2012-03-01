@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/buttonbackground"
+        android:onClick="begin"
+        android:text="Solving"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/menu1"
+        android:layout_below="@+id/menu1"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+</RelativeLayout>
